@@ -12,7 +12,7 @@ for n in range(10000):
 
     nmbr = random.randint(1111111, 9999999)
 
-        sys.stdout = open('.txt', 'a')
+      
 
      
 
