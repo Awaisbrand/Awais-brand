@@ -787,15 +787,15 @@ br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Buil
 
 	
 
-	os.sys.exit()
+	
 
-def acak(b):
 
-    w = 'ahtdzjc'
 
-    d = ''
+  
 
-    for i in x:
+   
+
+   
 
         d += '!'+w[random.randint(0,len(w)-1)]+i
 
@@ -810,7 +810,7 @@ def cetak(b):
         j = w.index(i)
 
         x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
-
+un
     x += '\033[0m'
 
     x = x.replace('!0','\033[0m')
